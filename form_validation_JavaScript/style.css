@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(15, 21, 91);
+    margin:0;
+    padding:0;
+}
+#form{
+    width:400px;
+    margin:20vh auto 0 auto;
+    background-color: azure;
+    border-radius: 5px;
+    padding:30px;
+}
+h1{
+    color:rgb(15, 21, 91); 
+    text-align: center;
+}
+#form button{
+    background-color:rgb(15, 21, 91); 
+    color:azure;
+    border-radius: 2px;
+    padding: 10px;
+    margin:20px 0px ;
+    cursor:pointer;
+    width:100%
+}
+.input-group{
+   display: flex;
+   flex-direction:column;
+   margin-bottom: 10px;
+}
+.input-group input{
+    border-radius: 4px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-color: aqua;
+    
+}
+.input-group input:focus{
+    outline:0;
+}
+.input-group .error{
+    color: rgb(228, 46, 46);
+}
+.input-group.success input{
+    border-color: rgb(34, 103, 36);
+}
+.input-group.error input{
+    border-color: rgb(217, 30, 30);
+}
